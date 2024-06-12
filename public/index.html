@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Image Upload</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="upload-container">
+        <div id="drop-area">
+            <form class="my-form">
+                <p>Drag and drop an image here or click to select a file</p>
+                <input type="file" id="fileElem" accept="image/*" onchange="handleFiles(this.files)">
+                <label class="button" for="fileElem">Select a file</label>
+            </form>
+        </div>
+        <button id="uploadButton" class="button" onclick="uploadSelectedFile()">Upload</button>
+        <div id="gallery"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.upload-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#drop-area {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#drop-area.highlight {
+    border-color: purple;
+}
+
+#gallery {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
