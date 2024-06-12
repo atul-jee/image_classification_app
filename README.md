@@ -12,6 +12,4 @@ It includes an Express.js backend and a frontend built with HTML, CSS, and JavaS
 
 ## Demo
 
-Watch the working of the project on YouTube:
-
-[![Image Upload and Classification](https://img.youtube.com/vi/PwD4ZmgurR4/0.jpg)](https://www.youtube.com/watch?v=PwD4ZmgurR4)
+Watch the working of the project on YouTube:(https://www.youtube.com/watch?v=PwD4ZmgurR4)
